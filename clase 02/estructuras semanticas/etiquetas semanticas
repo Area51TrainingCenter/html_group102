@@ -1,0 +1,24 @@
+header 
+contenedor de informacion importante de mi contenido
+
+nav
+contenedor para definir el menu de navegación de mi sitio
+
+section
+contenedor de información relacionada entre si
+o contenedor de información especifica.
+
+aside
+conteneder de información relacionada tangencialmente
+
+article
+entidad de información independiente
+
+footer
+contenedor de informacion de cierre de tu contenido
+
+
+
+
+main
+contenedor principal de todo tu contenido
