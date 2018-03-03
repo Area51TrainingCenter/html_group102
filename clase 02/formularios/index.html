@@ -20,7 +20,40 @@
 
 		<label>Ingresa tu contrasña </label>
 		<input type="password" required><br>
-		<input type="submit" value="enviar datos">
+			<input type="checkbox">
+			<label>
+				
+				acepta los términos y condiciones
+			</label><br>
+
+			<label>Escoge los curso de tu preferencia</label><br>
+			<label><input type="checkbox">HTML</label><br>
+			<label><input type="checkbox">CSS</label><br>
+			<label><input type="checkbox">JS</label><br>
+
+			<label>Escoge tu horario</label><br>
+			<label><input type="radio" name="horario">MAÑANA</label><br>
+			<label><input type="radio" name="horario">TARDE</label><br>
+			<label><input type="radio" name="horario">NOCHE</label><br>
+			<label> Selecciona tu distrito</label><br>
+
+			<select> <!--lista deplegable-->
+				<option value="0" disabled selected>Selecciona tu distrtito</option>
+				<option value="1">Lince</option>
+				<option value="2">Jesús María</option>
+				<option value="3">Miraflores</option>
+				<option value="4">San isidro</option>
+			</select>
+			<br>
+			<label>Ingresa tu comentario:</label><br>
+			<textarea placeholder="ingresa tu comentario"></textarea>
+			<br>
+			<label>Selecciona tu archivo</label><br>
+			<input type="file" title="cambiar">
+			<br>
+			<input type="submit" value="enviar datos">
+
+
 
 
 	</form>
