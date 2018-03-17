@@ -5,7 +5,15 @@
 </head>
 <body>
 <h1>Ejemplo de etiqueta audio</h1>
-<audio src="multimedia/song1.mp3" controls muted preload></audio>
+<!--
+<audio src="multimedia/song1.mp3"  preload autoplay loop controls muted></audio>
+-->
+<audio controls preload >
+	<source src="archivo.ogg" type="audio/ogg">
+	<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+	el navegador no es compatible con este contenido
+</audio>
+
 </body>
 </html>
 
