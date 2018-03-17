@@ -1,0 +1,22 @@
+.box1{
+	width: 100px;
+	height: 450px;
+	background-color: red;
+	display: inline-block;
+	vertical-align: top;
+
+}
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	display: inline-block;
+	vertical-align: top;
+}
+.box3{
+	width: 100px;
+	height: 180px;
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+}

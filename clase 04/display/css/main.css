@@ -1,0 +1,36 @@
+.title{
+	background-color: skyblue;
+}
+.text1{
+	background-color: green;
+	color: white;
+}
+.parrafo1{
+	background-color: pink;
+}
+.text2{
+	background-color: purple;
+	color: white;
+}
+
+
+/** elementos de tipo bloque 
+	puedo modificiar el ancho y alto
+	pero siguen ocupando toda la linea
+**/
+.title{
+	width: 300px;
+	height: 100px;
+}
+.parrafo1{
+	width: 200px;
+	height: 100px;
+}
+/** elementos de tipo inline
+	no puedo modificar ni el alto ni el ancho
+ **/
+.text2{
+	background-color: purple;
+	color: white;
+
+}
