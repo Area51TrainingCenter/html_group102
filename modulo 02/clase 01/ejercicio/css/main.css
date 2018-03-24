@@ -1,0 +1,61 @@
+.contenedor{
+	width: 1024px;
+
+	margin:0 auto;
+	
+}
+.last-products{
+	text-align: center;
+}
+
+.title-seccion{
+	font-size: 30px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	border-bottom: 2px solid gray;
+	padding: 15px;
+	display: inline-block;
+	
+}
+
+.item{
+
+	width: 200px;
+	text-align: center;
+	font-family: arial;
+	display: inline-block;
+	vertical-align: top;
+	margin:20px;
+}
+.pic-item{
+	width: 100%;
+}
+.title-item{
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.price-item{
+font-size: 18px;
+color: red;
+margin-right: 5px;
+margin-bottom: 30px;
+
+}
+.old-price-item{
+font-size: 15px;
+color: black;
+text-decoration: line-through;
+margin-left: 5px;
+margin-bottom: 30px;
+
+}
+.add-cart{
+	display: inline-block;
+	margin-top: 10px;
+	border: 1px solid black;
+	padding: 10px;
+
+}
