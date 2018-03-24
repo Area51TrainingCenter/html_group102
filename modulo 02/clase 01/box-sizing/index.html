@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>uso del boxsizing</title>
+</head>
+<body>
+	
+	<div class="contenido">
+		<div class="box1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores necessitatibus natus, obcaecati ut exercitationem vero, nesciunt atque laboriosam veniam numquam soluta labore inventore, expedita tempore quis reprehenderit maxime provident eum.</p>
+		</div>
+		<div class="box2"></div>
+	</div>
+</body>
+</html>
+
+<style>
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+	.contenido{
+		width: 800px;
+		background-color: red;
+		
+	}
+	.box1{
+	width: 380px;
+	margin:8px;
+	height: 300px;
+	background-color: green;
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	padding: 50px;
+	/*border:100px solid black;*/
+
+	
+	}
+	.box2{
+			margin:8px;
+		width: 380px;
+	height: 300px;
+	background-color: yellow;
+	display: inline-block;
+	vertical-align: top;
+	}
+</style>
