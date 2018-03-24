@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Margenes</title>
+</head>
+<body>
+	
+	<div class="box1"></div>
+	<div class="box2"></div>
+	<div class="box3"></div>
+</body>
+</html>
+
+<style>
+	.box1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	/*margin:20px; un solo valor modifica a todos los lados por igual*/
+	/* puedo definir el margin por cada lado */
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	/*margin:20px 0px 20px 20px;*/
+	display: inline-block;
+	vertical-align: top;
+	}
+	.box2{
+	width: 100px;
+	height: 100px;
+
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+	}
+	.box3{
+	width: 100px;
+	height: 100px;
+	margin:10px 20px;
+	/* margin: (top,bottom) (left,right);*/
+	margin:10px 5px 20px 30px;
+	/*margin:top right bottom left;*/
+	background-color: orange;
+	}
+</style>
