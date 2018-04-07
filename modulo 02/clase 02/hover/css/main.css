@@ -1,0 +1,13 @@
+.title{
+	font-family: arial;
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	/*transition: all 0.3s linear;*/
+}
+
+.title:hover{
+	background-color: blue;
+	margin-top: 50px;
+}

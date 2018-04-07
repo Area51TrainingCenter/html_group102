@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>box-sizing</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<div class="box-1"></div>
+		<div class="box-2"></div>
+	</div>
+</body>
+</html>
+
+<style>
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-;
+}
+	.contenedor{
+		width: 1024px;
+		height: 500px;
+		background-color: red;
+		margin:0 auto;
+		margin-top:0;
+		margin-bottom: 0px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.box-1{
+		width: 510px;
+		height: 300px;
+		border:20px solid yellow;
+		background-color: green;
+		display: inline-block;
+		vertical-align: top;
+
+
+	}
+	.box-2{
+		width: 510px;
+		height: 300px;
+		background-color: blue;
+		display: inline-block;
+		vertical-align: top;
+		border:40px solid skyblue;
+		
+	}
+</style>
