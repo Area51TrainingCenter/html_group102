@@ -49,6 +49,7 @@ float: right;
 	font-size: 50px;
 	color: white;
 	margin-bottom: 20px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 .text2{
 	color: white;
@@ -60,18 +61,18 @@ float: right;
 }
 
 .bloque2{
-	background-color: skyblue;
+	background-image: url(https://templated.co/items/demos/industrious/images/bg.jpg);
+	background-size: cover;
+	background-position: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-attachment: fixed;
 }
-
-
 .centrado{
 	width: 1024px;
 	margin:0 auto;
-	background-color: blue;
+	
 }
-
 .title-section{
 	font-size: 30px;
 	margin-bottom: 15px;
@@ -81,4 +82,44 @@ float: right;
 	font-size: 17px;
 	text-align: center;
 	line-height: 1.4;
+	margin-bottom: 40px;
+}
+
+.item{
+	width: 330px;
+	background-color: white;
+	padding:40px;
+	text-align: center;
+	float: left;
+	margin-right: 17px;
+	margin-bottom: 20px;
+	transition: all 0.3s linear;
+	cursor:pointer;
+}
+.item:hover{
+	box-shadow: 2px 2px 2px gray;
+}
+
+.item:hover .icono-fuente{
+color: gray;
+}
+.no-margin{
+	margin-right: 0px;
+}
+
+.icono-fuente{
+	font-size: 80px;
+	color: red;
+	transition: all 0.3s linear;
+}
+
+.title-item{
+	font-size: 21px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.text-item{
+	font-size: 15px;
+	line-height: 1.6;
 }
