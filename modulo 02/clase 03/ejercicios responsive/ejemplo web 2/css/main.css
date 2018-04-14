@@ -39,7 +39,6 @@
 
 .info-home{
 	width: 470px;
-
 	background-color: rgba(0, 0, 0, 0.55);
 	padding: 35px;
 	margin-top: 20px;
@@ -47,7 +46,6 @@
 
 .info-home p{
 	font-family: 'Raleway', sans-serif;
-
     font-size: 15px;
     font-weight: bold;
     line-height: 1.6;
@@ -175,15 +173,16 @@ font-family: Courier;
 }
 
 .clear{
-	clear: both;
+ clear: both;
 }
+
+
 @media screen and (min-width: 0px) and (max-width: 1024px){
 	.caja-centrada{
 		width: 100%;
 	}
 	.info-home{
 		margin: 0 auto;
-	
 	}
 	.info-section{
 	width: 50%;
@@ -193,34 +192,48 @@ font-family: Courier;
 		float: left;
 		width: 50%;
 	}
-
 	.info-img img{
 		width: 45%;
 		height: auto;
 	}
-
 }
 
 @media screen and (min-width: 0px) and (max-width: 800px){
 	.menu-footer{
 		width: 100%;
 	}
+
+	.info-contac a{
+		float: none;
+		display: block;
+		width: 180px;
+		text-align: center;
+		margin:20px auto;
+	}
+
+	.menu-footer{
+		text-align: center;
+		padding-left: 0px;
+	}
+	.footer-site{
+		text-align: center;
+	}
 }
 @media screen and (min-width: 0px) and (max-width: 700px){
 	.info-section{
 	width: 100%;
-	
 	}
 	.info-img{
-		
 		width: 100%;
 	}
-
 }
 
 @media screen and (min-width: 0px) and (max-width:500px){
 	.info-home{
 		width: 80%;
 	}
+.ui-title-info{
+	font-size: 30px;
+}
 
 }
