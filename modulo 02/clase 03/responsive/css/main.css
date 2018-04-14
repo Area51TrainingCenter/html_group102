@@ -1,0 +1,44 @@
+
+.contenedor{
+	width:1024px;
+	margin: 0 auto;
+	background-color: skyblue;
+}
+.contenedor h1{
+	font-size: 30px;
+	font-family: arial;
+	color: blue;
+	text-align: center;
+	padding: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+	.contenedor{
+		width: 100%;
+		background-color: yellow;
+	}
+	.contenedor h1{
+		color: black;
+	}
+}
+@media screen and (min-width: 420px) and (max-width:680px)
+{
+	.contenedor{
+		width: 100%;
+		background-color: red;
+	}
+	.contenedor h1{
+		color: white;
+	}
+}
+@media screen and (min-width: 680px) and (max-width:1024px)
+{
+	.contenedor{
+		width: 100%;
+		background-color: red;
+	}
+	.contenedor h1{
+		color: white;
+	}
+}
