@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+.header-site{
+}
+.logo{
+float: left;
+margin: 20px;
+}
+.nav-site{
+	float: right;
+}
+.nav-site ul li{
+	display: inline-block;
+	vertical-align: top;
+	padding:20px;
+
+}
+.bloque-principal{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.bloque-principal h2{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.clear{
+	clear: both;
+}
+
+.fondo{
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
