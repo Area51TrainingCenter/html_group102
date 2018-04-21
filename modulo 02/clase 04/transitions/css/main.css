@@ -19,3 +19,15 @@
 	background-color: white;
 	color: black;
 }
+
+
+.img-demo{
+	border-radius: 50%;
+	opacity: 0.3;
+	transition:all 0.3s linear;
+}
+
+.img-demo:hover{
+	opacity: 1;
+	box-shadow: 4px 4px 4px black;
+}
