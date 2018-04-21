@@ -2,4 +2,32 @@
 	width: 400px;
 	height: 400px;
 	background-image: url(../img/bg1.jpg);
+	background-position: -1210px -220px;
+}
+.ico-redes{
+	width: 56px;
+	height: 56px;
+	background-image: url(../img/redes.png);
+	display: inline-block;
+	transition: all 0.3s linear;
+
+}
+.ico-twitter{
+	background-position: 0px 0px;
+}
+.ico-twitter:hover{
+	background-position: 0px -56px;
+}
+.ico-facebook{
+	background-position: -56px 0px;
+}
+
+.ico-facebook:hover{
+	background-position: -56px -56px;
+}
+.ico-google{
+	background-position: -112px 0px;
+}
+.ico-google:hover{
+	background-position: -112px -56px;
 }
