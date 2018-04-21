@@ -1,0 +1,176 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 50%;
+	animation:movimiento2 7s infinite 4s;
+	
+}
+
+.box2{
+	vertical-align: top;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	border-radius: 50%;
+	animation:movimiento2 7s infinite 6s;
+}
+
+@keyframes movimiento1{
+	/*to{ background-color: red; }
+	from{ background-color: blue; }*/
+	0%{background-color: red;}
+	50%{background-color: yellow;}
+	100%{background-color: red;}
+
+}
+
+
+@-webkit-keyframes movimiento1{
+	/*to{ background-color: red; }
+	from{ background-color: blue; }*/
+	0%{background-color: red;}
+	50%{background-color: yellow;}
+	100%{background-color: red;}
+
+}
+
+
+@keyframes movimiento2{
+	/*to{ background-color: red; }
+	from{ background-color: blue; }*/
+	0%{
+		margin-top: 0px;
+		background-color: black;
+	}
+	10%{
+		margin-top: 100px;
+	}
+	30%{
+		margin-top: 10px;
+	}
+	50%{
+		margin-top: 160px;
+		background-color: red;
+	}
+	70%{
+		margin-top: 200px;
+	}
+	90%{
+		margin-top: 100px;
+	}
+	100%{
+		margin-top: 0px;
+		background-color: black;
+	}
+
+}
+
+
+@-webkit-keyframes movimiento2{
+	/*to{ background-color: red; }
+	from{ background-color: blue; }*/
+	0%{
+		margin-top: 0px;
+		background-color: black;
+	}
+	10%{
+		margin-top: 100px;
+	}
+	30%{
+		margin-top: 10px;
+	}
+	50%{
+		margin-top: 160px;
+		background-color: red;
+	}
+	70%{
+		margin-top: 200px;
+	}
+	90%{
+		margin-top: 100px;
+	}
+	100%{
+		margin-top: 0px;
+		background-color: black;
+	}
+
+}
+
+
+.banner{
+	width: 300px;
+	height: 250px;
+	background-color: red;
+	position: relative;
+	margin:30px;
+}
+.title-banner{
+	font-size: 30px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	transition: all 0.3s linear;
+	animation:banner 4s 1;
+}
+
+.nombre{
+	font-size: 30px;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	transition: all 0.3s linear;
+	animation:nombre 4s 1;
+}
+/*.banner:hover .title-banner{
+	top: 120px;
+}*/
+
+@keyframes nombre{
+	0%{
+		bottom:  -300px;
+	}
+	50%{
+		bottom: 50px;
+	}
+	100%{
+		bottom: 50px;
+	}
+}
+
+@-webkit-keyframes nombre{
+	0%{
+		bottom:  -300px;
+	}
+	50%{
+		bottom: 50px;
+	}
+	100%{
+		bottom: 50px;
+	}
+}
+@-webkit-keyframes banner{
+	0%{
+		top: -300px;
+	}
+	50%{
+		top: 80px;
+	}
+	100%{
+		top: 80px;
+	}
+}
+
+*{
+	margin:0;
+	padding: 0;
+}
