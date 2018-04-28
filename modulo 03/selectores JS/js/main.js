@@ -5,10 +5,10 @@ function cambiartitle(){
 }
 
 var btn_cambiar=document.getElementById("cambiar");
-btn_cambiar.addEventListener("click",cambiartitle)
+btn_cambiar.addEventListener("click",cambiartitle);
 
 var btn_regresar=document.getElementById("regresar");
-btn_regresar.addEventListener("click",regresartitle)
+btn_regresar.addEventListener("click",regresartitle);
 
 function regresartitle(){
 	var elemento=document.getElementById('title');
