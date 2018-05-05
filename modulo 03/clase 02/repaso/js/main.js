@@ -19,11 +19,12 @@
 // te devuelve 1 arreglo
 
 
-
 var elemento=document.getElementById("ingresar_datos");
-
 elemento.addEventListener("click",tarea)
 
 function tarea(){
-	prompt("Ingresa tu nombre");
+	event.preventDefault();
+	var nombre=prompt("Ingresa tu nombre");
+	var nombre_ingresado=document.getElementById("nombre");
+	nombre_ingresado.innerHTML= nombre;
 }
