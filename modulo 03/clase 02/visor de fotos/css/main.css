@@ -9,6 +9,7 @@
 	margin: 0 auto;
 }
 .img-principal{
+	position: relative;
 }
 .lista-imagenes{
 	text-align: center;
@@ -26,4 +27,23 @@
 .lista-imagenes li img{
 	width: 100%;
 	height: auto;
+}
+
+.nav-left{
+padding: 20px;
+font-size: 30px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	left: 10px;
+	top: 47%;
+}
+.nav-rigth{
+padding: 20px;
+font-size: 30px;
+	background-color: black;
+	color: white;
+	position: absolute;
+	right: 10px;
+	top: 47%;
 }
