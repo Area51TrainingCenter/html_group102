@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		.container{
+			width: 100%;
+			height: 8000px;
+		}
+		.giro{
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			position: fixed;
+			right: 10px;
+			top: 10px;
+		}
+		.over-menu{
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			position: fixed;
+			top: -100%;
+			transition:all 0.2s linear;
+		}
+		.show{
+			top:0px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="over-menu"></div>	
+	<div class="giro"></div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script>
+	rotation=0;
+		$(window).scroll(function(){
+			console.log("ejecutando scroll");
+			
+			rotation += 10;
+			$(".giro").css({'transform' : 'rotate('+ rotation +'deg)'});
+		})
+
+		$(".giro").click(function(){
+			$(".over-menu").toggleClass("show");
+		})
+	</script>
+</body>
+</html>
