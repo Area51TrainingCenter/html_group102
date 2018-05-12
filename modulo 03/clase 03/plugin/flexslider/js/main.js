@@ -1,0 +1,9 @@
+$(window).load(function(){
+	$('.flexslider').flexslider({
+		direction:"horizontal",
+		animation:"slide",
+		reverse:true,
+		startAt:0,
+		randomize:true
+	});
+})
