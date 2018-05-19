@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#bloque-mapa{
+			width: 100%;
+			height: 500px;
+		
+		}
+	</style>
+</head>
+<body>
+
+<div id="bloque-mapa"> </div>
+<script src="stylemapa.js"></script>
+
+<script>
+	function cargarMapa(){
+		var opciones={
+			center: new google.maps.LatLng(-12.1023107,-77.0264645),
+			zoom: 16,
+			styles:estilo1
+		}
+		var ele=document.getElementById('bloque-mapa');
+		var mapa=new google.maps.Map(ele,opciones);
+
+		new google.maps.Marker({
+			position: new google.maps.LatLng(-12.1023107,-77.0264645),
+			map:mapa,
+			animation :google.maps.Animation.BOUNCE,
+			icon:"logo.png"
+		})
+
+		new google.maps.Marker({
+			position: new google.maps.LatLng(-12.102274,-77.025676),
+			map:mapa,
+			animation :google.maps.Animation.DROP
+		})
+		
+
+
+	}
+</script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4a5buWrjezshCoUJYCH-3L9eP6Y2jSb4&callback=cargarMapa"
+    async defer></script>
+</body>
+</html>
