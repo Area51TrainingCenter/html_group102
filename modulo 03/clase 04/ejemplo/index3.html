@@ -4,10 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 
-	
-
-
-
 	<style>
 	body{
 		font-family: arial;
@@ -24,10 +20,10 @@
 	}
 	.ocultar-menu{
 		position: relative;
-		top: -60px!important;
+		top: -80px!important;
 	}
 	.header-site {
-		background-color: rgba(0,0,0,0.4);
+		background-color: rgba(0,0,0,0.7);
 		/*position: fixed;
 		top: 0px;
 		left: 0px;
@@ -71,7 +67,27 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<script src="js/main.js"></script>
+<script>
+	$(window).load(function(){
+
+		$(window).scroll(function(){
+
+			var top=$(window).scrollTop();
+		console.log(top)
+			if(top>4){
+				$(".header-site").addClass("ocultar-menu");
+				
+				// console.log("mover menu")
+			}
+			else{
+				$(".header-site").removeClass("ocultar-menu");
+				// console.log("restaurar")
+			}
+
+		})
+
+	})
+</script>
 	
 </body>
 </html>
